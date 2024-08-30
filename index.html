@@ -19,9 +19,13 @@
     rel="stylesheet"
   />
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container pt-3">
-        <a class="navbar-brand" href="#">Vivre</a>
+        <div class="row">
+          <a class="navbar-brand fs-2 align-self-center" href="#">Vivre</a>
+        </div>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -35,6 +39,7 @@
         </button>
         <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
           <div class="d-flex justify-content-between w-100">
+            <!-- 搜尋文章 -->
             <form class="d-flex">
               <input
                 class="form-control me-2 rounded-pill"
@@ -69,7 +74,17 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container pb-4">
+      <!-- 主圖片 -->
+      <img
+        src="/picture/關於我們頁主圖片.png"
+        class="img-fluid rounded"
+        style="object-fit: cover; width: 81rem; height: 28.4rem"
+        alt="..."
+      />
+    </div>
+    <div class="container mt-5">
+      <!-- 麵包屑 -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a>首頁</a></li>
@@ -80,22 +95,24 @@
       </nav>
     </div>
     <div class="container">
-      <div class="card mb-3">
-        <div class="row g-0">
+      <h6 class="card-title mediumwordsize mb-5">關於我們</h6>
+
+      <div class="card mb-3 border-0 bgc_lightyellow">
+        <div class="row g-0 align-items-stretch">
           <div class="col-md-4">
             <img
               src="/picture/關於我們頁品牌價值.png"
-              class="img-fluid rounded-start"
+              class="img-fluid rounded-start rounded"
               alt="..."
             />
           </div>
           <div class="col-md-8">
-            <div class="card-body">
+            <div class="card-body ms-4 pt-0">
               <h6 class="card-title mediumwordsize">Vivre</h6>
               <p class="card-text">
                 vivre
-                這個品牌名稱源自法語,意為"生活"、"活著"。它象徵著我們對於高品質生活的熱愛與追求。vivre
-                旨在成為一個分享美好生活體驗、發掘生活質感的平台。
+                這個品牌名稱源自法語,意為"生活"、"活著"。它象徵著我們對於高品<br />質生活的熱愛與追求。vivre
+                旨在成為一個分享美好生活體驗、發掘生活質<br />感的平台。
               </p>
               <h3 class="card-title smallwordsize">我們的品牌價值</h3>
               <ul>
@@ -109,26 +126,28 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="card mb-3">
-        <div class="row g-0">
+    <div class="container pt-5">
+      <div class="card mb-3 border-0 bgc_lightyellow">
+        <div class="row g-0 align-items-stretch">
           <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Vivre</h5>
-              <p class="card-text">
-                vivre這個品牌名稱源自法語，意為"生活"、"活著"。象徵我們對於高品質生活的熱愛與追求
-                。vivre旨在成為一個分享美好生活體驗、發掘生活質感的平台。
+            <div class="card-body pt-0">
+              <h5 class="card-title mediumwordsize">風格特色</h5>
+              <p class="card-text py-3">
+                vivre所展現的風格特色,可以用知性、親和、用心、優雅與獨特這些詞語<br />
+                來概括。我們講求內容的原創性與探索精神,不跟風追隨潮流話題,而是真誠<br />分享獨特的生活視角與體驗。無論是旅行、美食、居家、時尚等生活領域<br />,我們都希望能夠呈現出與眾不同、縝密入微、內外兼具的見解,給讀者帶來<br />嶄新的感受和啟迪。
               </p>
-
               <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                無論您是對美食、旅行、居家生活還是時尚風尚有獨到的見解和體會,只要<br />切合vivre的價值理念與風格調性,我們都熱烈歡迎您加入這個平台,與我們<br />一起分享和交流生活的點點滴滴。
+              </p>
+              <p class="card-text">
+                <small class="text-muted"></small>
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <img
               src="/picture/關於我們頁風格特色.png"
-              class="img-fluid rounded-start"
+              class="img-fluid rounded-start rounded"
               alt="..."
             />
           </div>

@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #fffdf5;
 }
 .mediumwordsize {
   font-size: 2rem;
@@ -11,4 +12,7 @@ body {
 .smallwordsize {
   font-size: 1rem;
   font-weight: 700;
+}
+.bgc_lightyellow {
+  background-color: #fffdf5;
 }
