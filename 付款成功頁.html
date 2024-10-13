@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container bgc_lightyellow">
+      <!--響應導覽列-->
+      <div class="row">
+        <nav
+          class="navbar navbar-light navbar-expand-lg fixed-top bgc_lightyellow"
+        >
+          <div class="container border-bottom py-4">
+            <a class="navbar-brand" href="#">Vivre</a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Vivre</h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2 rounded-pill"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </form>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"
+                      >所有文章</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">訂閱方案</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">關於我們</a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                    <button
+                      class="btn btn-outline-success active rounded-pill btn-sm"
+                      type="submit"
+                    >
+                      登入/註冊
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--付款成功背景-->
+      <div class="row navbarbottom justify-content-center">
+        <!--付款成功外框-->
+        <div class="col-11 col-sm-6">
+          <!--付款成功大標題和圖示-->
+          <div class="row justify-content-center align-items-center mb-5">
+            <!--check圖示-->
+            <div class="col-auto">
+              <img
+                src="/picture/check2-circle.png"
+                alt=""
+                ;style="height:3rem;weight:3rem"
+              />
+            </div>
+            <!--付款成功文字-->
+            <div class="col-6 col-sm-auto letterh1">
+              <h1 class="greenwordbig text-nowrap m-0 text-center">付款成功</h1>
+            </div>
+          </div>
+          <!--付款表單-->
+          <div class="row whitebackground rounded-3 sizepadding2dot5 border">
+            <!--付款表單內容框-->
+            <div class="row border-bottom">
+              <!--訂購資訊文字-->
+              <div class="row">
+                <div class="col-4 col-sm-auto">
+                  <h4 class="blackword pb-4 text-nowrap">訂購資訊</h4>
+                </div>
+              </div>
+              <!--輕量型方案與金額-->
+              <div class="row justify-content-between pt-2">
+                <!--輕量型文字-->
+                <div class="col-sm-auto col-6 blackword text-nowrap fs-5">
+                  輕量型方案
+                </div>
+                <div class="col-sm-auto col-6 blackword text-nowrap fs-5">
+                  NT 1,188
+                </div>
+              </div>
+              <!--年繳文字-->
+              <div>
+                <h6 class="mt-2 grayword sizemargin2dot5bottom">年繳</h6>
+              </div>
+              <!--開始日內容-->
+              <div class="row justify-content-between sizemargin1bottom">
+                <div class="col-auto grayword fs-6">開始日</div>
+                <div class="col-auto grayword fs-6">2024 / 5 / 1</div>
+              </div>
+              <!--終止日內容-->
+              <div class="row justify-content-between border-bottom pb-4">
+                <div class="col-auto grayword fs-6">終止日</div>
+                <div class="col-auto grayword fs-6">2025 / 5 / 1</div>
+              </div>
+              <!--瀏覽文章按鈕-->
+              <button
+                type="button"
+                class="btn btn-success rounded-pill sizemargin2dot5top"
+                style="height: 3rem; background-color: #569573"
+              >
+                瀏覽文章➞
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--底部allright-->
+      <div class="row">
+        <div class="border-top mt-5 py-5">
+          <div class="col smallwordsize text-center">
+            ©Vivre 2024 All right Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

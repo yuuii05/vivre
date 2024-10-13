@@ -9,10 +9,84 @@ body {
   font-size: 2rem;
   font-weight: 700;
 }
+.small2wordsize {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.small3wordsize {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
 .smallwordsize {
   font-size: 1rem;
   font-weight: 700;
 }
 .bgc_lightyellow {
   background-color: #fffdf5;
+}
+.inpurbackgroundcolor {
+  background-color: #f8f9fa;
+}
+
+.formbackgroundcolor {
+  background-color: rgb(255, 255, 255);
+}
+.font500 {
+  font-weight: 500;
+}
+.bgc_yellow {
+  background-color: #fffbe5;
+}
+.sizepaddingbig {
+  padding-top: 5rem;
+  padding-right: 0.625rem;
+  padding-bottom: 5rem;
+  padding-left: 0.625rem;
+}
+.sizepaddingmedium {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+.sizepaddingmedium p {
+  letter-spacing: 0.05rem;
+}
+.sizepadding2dot5 {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.sizemargin2dot5bottom {
+  padding-bottom: 2.5rem;
+}
+.sizepadding2dot5top {
+  padding-bottom: 2.5rem;
+}
+.sizemargin2dot5top {
+  margin-top: 2.5rem;
+}
+.sizemargin1bottom {
+  padding-bottom: 1rem;
+}
+.letterh1 {
+  letter-spacing: 0.1rem;
+}
+.navbarbottom {
+  margin-top: 14rem;
+}
+.greenwordbig {
+  color: #569573;
+  font-weight: 900;
+}
+.blackword {
+  color: #09090b;
+  font-weight: 900;
+}
+.grayword {
+  color: #a1a1aa;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.whitebackground {
+  background: #ffffff;
 }
